@@ -165,8 +165,8 @@
           <th >NIPD / Email</th>
           <th style="width: 220px" >Nama</th>
           <th >Kelas</th>
-          <th >Memilih Osis</th>
-          <th >Memilih Mpk</th>
+          <th >Osis</th>
+          <th >Mpk</th>
           <th >Aksi</th>
       </thead>
       @foreach($users as $pemilih)
