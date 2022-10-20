@@ -26,7 +26,7 @@ class User extends Authenticatable
         'mpk',
         'kelas',
         'email',
-
+        'nohp',
     ];
 
     /**
