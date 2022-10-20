@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+.home-head {
+    position: absolute;
+    background-image: url('img/baru.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+font-family: poppins;
+}
+
+.q {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 500px;
+}
+
+.w {
+    position: absolute;
+    top: 130px;
+    left: 55px;
+    width: 700px;
+}
+
+.e {
+    position: absolute;
+    left: 50px;
+    top: 250px;
+}
+
+.r {
+    position: absolute;
+    left: 13px;
+    top: 180px;
+  }
+
+  .t {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+  }
+
+  .tt {
+    position: absolute;
+    top: 5px;
+    left: 170px;
+  }
+  .ttt {
+    position: absolute;
+    top: 5px;
+    left: 290px;
+  }
+
+  .y {
+    position: absolute;
+    top: 10px;
+    left: 405px;
+  }
+
+  .oo {
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(240, 246, 254);
+    top: 30px;
+  }
+
+label{
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(240, 246, 254);
+  top: 30px; 
+}
+
+.main-row{
+width: 100%;
+}
+
+.login .form-login{
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 4px 4px 20px rgba(0, 0, 0, 0.25);
+    padding-right: 100px;
+    padding-left: 100px;
+    position: absolute;
+    right: 30px;
+    left: 850px;
+    top: 130px;
+    bottom: 150px;
+    box-sizing: 100px;
+    background: -webkit-linear-gradient(bottom, #c4c8ca, #16548f);
+    background-repeat: no-repeat;
+}
+
+.map{
+    position: absolute;
+    left: 0%;
+    right: -28.78%;
+    top: 0%;
+    bottom: 0%;
+
+}
+
+.daun{
+    position: absolute;
+    width: 100px;
+    left: 80%;
+    top: 55%;
+    bottom: 70.7%;
+}
+
+.judul{
+    font-family: Product Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}

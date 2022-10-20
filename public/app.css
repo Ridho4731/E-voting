@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.hidden{
+    display: none;
+}
+
+body{
+    background-color: rgb(240, 246, 254);
+}
+
+main{
+    /* background-color: rgb(247, 247, 247); */
+    background-color: rgb(240, 246, 254);
+}
+
+main h1{
+    color: #184f7c;
+    font-family: poppins;
+}
+
+.navbar{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+    left: 0;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    background-color: aqua;
+}
+
+.navbar-brand img{
+    width: 40px;
+}
+/* section{height: 100vh;} */
+
+#sidebarMenu .sidebar-sticky{
+    background-color: #FEFFFF;
+}
+
+#sidebarMenu ul li a{
+    padding-inline: 0px;
+    margin-inline: 16px;
+    margin-bottom: 10px;
+    color: #135081;
+}
+
+#sidebarMenu ul li .link:hover{
+    border-top: 1px solid rgb(0, 0, 0,0.5);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#sidebarMenu ul li .link:hover > img{
+    margin-left: 20px;
+}
+
+.Highlight {
+    background-color: #365FB8;
+    margin-left: 15px;
+    margin-right: 10px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #FEFFFF;
+}
+
+
+#sidebarMenu ul .Highlight a{
+    color: #FEFFFF;
+}
+
+#sidebarMenu ul .Highlight img{
+    margin-left: 20px;
+}
+
+#sidebarMenu ul li img{
+    width: 27px;
+    margin-right: 15px;
+}
+.t-head{
+    position: sticky;
+    top: 0;
+    border-right: #DFE0E1;
+}
+.t-siswa{
+    height:500px;
+    overflow-y: scroll;
+}
+
+.t-siswa::-webkit-scrollbar{
+    width: 5px;
+}
+
+.btn-tambah-pemilih{
+    height: 38px;
+} 
+
+.btn-simpan-pemilih{
+    height: 38px;
+}
+
+.btn-tutup-pemilih{
+    border-radius: 50%;
+}
+
+.badge-btn{
+    cursor: pointer;
+}
+
+.kontainer{
+    background-color: #FEFFFF;
+    border-radius: 20px;
+}
+
+#tambahsiswa{
+    display: contents;
+}
+
+#kandidat{
+    position: relative;
+}
+#kandidat .container{
+    position: relative;
+    height: 600px;
+}
+
+.mpk-osis-btn button{
+    height: 30px;
+ border :1px solid #365FB8 ;
+}
+
+
+#kandidat .row{
+    position: absolute;
+}
+
+
+#kandidat .card{
+    position: relative;
+    border-radius: 2%;
+    overflow: hidden;
+    /* width: 300px; */
+}
+
+#kandidat .card .dropdown{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+
+#kandidat .card img{
+    height: 400px;
+    object-fit: cover;
+}
+
+#kandidat .card button{
+    height: 30px;
+    color: white;
+}
+
+#kandidat .swiper{
+    padding-top: 25px;
+    background-color: #FEFFFF;
+    border-radius: 20px;
+}
+
+.swiper .drop-toggle{
+    opacity: 0.25;
+    transition: opacity 200ms ease;
+}
+
+.swiper .drop-toggle{
+    opacity: 1;
+}
+
+#card-group{
+position: absolute;
+transition: transform 400ms ease;
+}
+
+#kandidat #card-group[data-status="unknown"]{
+    transform: scale(0);
+}
+
+#kandidat #card-group[data-status="active"]{
+    transition-delay:200ms ;
+}
+
+#kandidat #card-group[data-status="after"]{
+    transform: scale(0);
+}
+
+
+#kandidat #card-group[data-status="active-from-before"]{
+    transform: scale(0);
+    transition: none;
+}
+
+.vote-success{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+/* HALAMAN VOTING */
+
+
+.kartu-kandidat {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
+  width: 550px;
+  height: 460px;
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: row;
+  border-radius: 25px;
+  position: relative; 
+}
+
+.kartu-kandidat::-webkit-scrollbar{
+    width: 5px;
+}
+
+.kartu-kandidat h2 {
+  margin: 0;
+  padding: 0 1rem;
+}
+
+.kartu-kandidat .title {
+  padding: 0.5rem;
+  text-align: right;
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.kartu-kandidat .desc div {
+    text-align: start;
+  padding: 0.5rem 1rem;
+}
+
+.kartu-kandidat .desc strong {
+    text-align: start;
+  padding: 0.5rem 1rem;
+  font-size:20px;
+}
+
+.kartu-kandidat .desc ol {
+    text-align: start;
+}
+
+
+.kartu-kandidat svg {
+  width: 85px;
+  height: 85px;
+  margin: 0 auto;
+}
+
+.img-avatar {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  border-radius: 50%;
+  border: 6px solid white;
+  background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+  top: 15px;
+  left: 25%;
+}
+
+.card-text {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.title-total{
+    margin-right: 0.5rem;
+}
+
+.img-portada {
+  width: 100%;
+}
+
+.portada {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-position: bottom center;
+  background-size: cover;
+}
+
